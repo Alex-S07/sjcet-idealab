@@ -1,20 +1,70 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+  <img src="./public/images/aicte_idealab_logo.png" alt="AICTE IDEALab Logo" height="120" />
+  <img src="./public/images/sjcet_college_logo.png" alt="SJCET Logo" height="120" />
+  <h1>SJCET IDEALab Web Portal</h1>
+  <p>Official web portal for the AICTE IDEALab at St. Joseph's College of Engineering and Technology, Palai</p>
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/ca0290f4-ebd4-46e8-80d3-e50dfbed87d6
+- 🏠 **Home** — Overview of the lab with stats and featured equipment
+- 🏫 **About** — About SJCET and the AICTE IDEALab collaboration
+- 🛠️ **Facilities** — Browse all lab equipment with specs and safety rules
+- 📅 **Workshops & Events** — View and register for upcoming events
+- 📋 **My Bookings** — Book equipment slots and track reservations
+- 📞 **Contact** — Send inquiries and view FAQs
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **React 19** + **TypeScript**
+- **Vite** (build tool)
+- **Tailwind CSS v4** (styling)
+- **Framer Motion** (animations)
+- **Lucide React** (icons)
 
+## 💻 Run Locally
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Prerequisites:** Node.js (v18 or above)
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Alex-S07/sjcet-idealab.git
+   cd sjcet-idealab
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser at `http://localhost:3000`
+
+> **No API key required.** This project runs fully offline with local data and images.
+
+## 📁 Project Structure
+
+```
+sjcet-idealab/
+├── public/
+│   └── images/          # All local images (logos, equipment photos)
+├── src/
+│   ├── components/      # Page components (Home, About, Facilities, etc.)
+│   ├── App.tsx          # Main app with navigation
+│   ├── mockData.ts      # Equipment, events, and FAQ data
+│   └── types.ts         # TypeScript type definitions
+├── index.html
+└── package.json
+```
+
+## 🏫 About
+
+This portal was developed for **SJCET IDEALab, Palai** — an AICTE-funded Innovation, Design, Entrepreneurship and Application Lab fostering hands-on engineering education.
+
+© 2026 SJCET IDEALab Palai. All rights reserved.
