@@ -1,0 +1,6 @@
+{
+  "name": "SJCET IDEALab",
+  "description": "Interactive visitor and booking portal for SJCET IDEALab, offering equipment reservations, facility navigation, and event organization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
